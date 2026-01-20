@@ -1,0 +1,65 @@
+
+.yes-no-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+body{
+    background-color: #061E29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+}
+h1{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 60px;
+}
+.yes{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    display: inline;
+    text-align: center;
+    background-color: green;
+    width: 200px;
+    border-radius: 100px;
+}
+.no{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    display: inline;
+    text-align: center;
+    background-color: red;
+    width: 200px;
+    border-radius: 100px;
+
+}
+@media (max-width: 600px) {
+    body{
+        min-height: 70vh;
+    }
+    .title{
+        font-size: 40px;
+    }
+    .yes, .no{
+        font-size: 30px;
+        width: 150px;
+    }
+}
+
+
