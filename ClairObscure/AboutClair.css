@@ -53,6 +53,22 @@ p{
     height: auto;
     display: block;
     border-radius: 30px;
+    }
+    .maelle {
+    width: 200px;
+    height: 200px;        
+    border-radius: 100px;        
+    font-family: "Cinzel", serif;
+    font-size: 24px;        
+    float: left;                        
+        }
+    .sophie {
+    width: 200px;        
+    height: 200px;        
+    border-radius: 100px;        
+    font-family: "Cinzel", serif;        
+    font-size: 24px;
+    float: right;
 }
 @media (min-width: 481px) and (max-width: 1200px) {
     h1 {
