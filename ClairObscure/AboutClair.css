@@ -34,31 +34,6 @@ p{
   display: block;
   border-radius: 30px;
 }
-.maelle{
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 100%;
-    float: left;
-}
-.sophie{
-    width: 300px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 100%;
-    float: right;
-}
-
-p.sophie{
-    text-align: center;
-    font: "Cinzel", serif;
-    font-size: 48px;
-}
-p.maelle{
-    text-align: center;
-    font: "Cinzel", serif;
-    font-size: 48px;
-}
 
 @media (min-width: 320px) and (max-width: 600px) {
     .intro{
